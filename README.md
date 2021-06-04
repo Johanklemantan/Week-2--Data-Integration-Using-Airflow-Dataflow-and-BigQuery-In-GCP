@@ -38,7 +38,7 @@ This week, I tried to set Airflow in Google Cloud Platform Environment using Goo
 ### Script Explanation <br>
 1. Task 1 : <br>
 A.Given 6 csv's file consist of keyword search and the number of it's keyword is searched.<br>
-Create empty table inside BigQuery using DataFlow. You can follow the process <a href='https://cloud.google.com/composer/docs/how-to/using/using-dataflow-template-operator'> here</a>. To perform this task, I am using DataflowTeplateOperator as written in the template<br>
+Create empty table inside BigQuery using DataFlow. You can follow the process <a href='https://cloud.google.com/composer/docs/how-to/using/using-dataflow-template-operator'> How to Launch Dataflow pipelines with Cloud Composer</a>. To perform this task, I am using DataflowTeplateOperator as written in the template<br>
 To create these, a schema.json that tells GCP how to read the csv file per line is created <br>
 Result for no 1A:<br>
 <img src='./result/1a result.PNG'>
