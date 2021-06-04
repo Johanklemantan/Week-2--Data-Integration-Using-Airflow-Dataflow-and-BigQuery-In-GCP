@@ -7,7 +7,7 @@ This week, I tried to set Airflow in Google Cloud Platform Environment using Goo
 
 ### Requirements<br>
 
-- First thing to do is to create Google Cloud Platform Account. Usually, we in Indonesia used Jenius as our credit card to create this account. Don't worry! This is completely free. Even you got $300 USD or Rp. 4.300.000,00 balance for the sake of learning in GCP Environment<br>
+- First thing to do is to create Google Cloud Platform Account. Usually, in Indonesia we use Jenius as our credit card to create this account. You just have to deposit some money into your Jenius account but don't worry! This is completely free. Even you got $300 USD or Rp. 4.300.000,00 balance for the sake of learning in GCP Environment<br>
 
 
 ### Installation<br>
