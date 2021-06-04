@@ -1,4 +1,4 @@
-# Week-2-Data-Integration-Using-Airflow-Dataflow-and-BigQuery-In-GCP
+# Week 2 : Data Integration Using Airflow Dataflow and BigQuery In GCP Composer
 
 <img src='https://csharpcorner.azureedge.net/UploadFile/NewsImages/05022018113345AM/Capture.PNG'><br>
 
