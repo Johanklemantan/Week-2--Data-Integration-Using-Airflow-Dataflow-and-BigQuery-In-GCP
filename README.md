@@ -52,7 +52,22 @@ Result for no 1B:<br>
 Given a bigquery table in another account's GCP that shared to us that consist of some fields with nesting field as one of it.<br>
 We asked to return these bigquery table to our dataset to take some important fields only.<br>
 To perform it, I am using BigQueryOperator and some SQL query, and return it into our project. The output of this task is a bigquery table inside our GCP account<br>
+There are 3 steps to solve task no 2<br>
+Here is the DAG graph chart :<br>
+<img src='./result/ETL Airflow.PNG'><br>
+First step is to create  demanded transactional table by querying in Big Query<br>
 Result for no 2:<br>
 <img src='./result/2 result.PNG'>
+Second step is to create new partitioned table of date. The purpose of this is to fasten the querying time and save some money <br>
+Picture of querying table :
+<img src='./result/partition.PNG'>
+Last step is to transfer the resulted table to the desired database. In this case I'm transfering the table into my GCP bucket.<br>
+Here is the file inside my bucket :<br>
+<img src='./result/final partitioned.PNG'><br>
+
+For further improvement :
+- I should make the destination table inside the query using variable to make the code more robust and cleaner. But after trying to use airflow module variable, it did not work. I have to learn more about it.
+- I should get used to coding as per PEP-8 format. In this file, I'm using autopep8 library, but I think the best practice is by reading and writting more and more code.
+- Explore more about dataflow
 
 Thankyou and Happy Coding
